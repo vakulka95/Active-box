@@ -112,7 +112,7 @@ p{
     justify-content: center;
     height: 750px;
 
-    background: #242A47 url(img/intro-bg.jpg) center no-repeat;
+    background: #242A47 url('img/intro-bg.jpg') center no-repeat;
     background-size: cover; /*Данная запись нужна для Mozila Firefox*/
     padding-top: 100px;
 }
@@ -128,7 +128,7 @@ p{
 
 .intro__title{
     margin: 0;
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 65px;
     color: #fff;
     font-weight: 700;
@@ -174,7 +174,7 @@ p{
 
     cursor: pointer;
 
-    transition: background 0.1s linear;
+    transition: all 0.1s linear;
 }
 
 
@@ -525,13 +525,13 @@ p{
 .footer__address{
     font-style: normal;
     font-size: 14px;
-    line-height: 1.5
+    line-height: 1.5;
     color: rgba(255, 255, 255, 0,5);
 }
 
 .footer__text{
     font-size: 14px;
-    line-height: 1.5
+    line-height: 1.5;
     color: rgba(255, 255, 255, 0,5);
 }
 
